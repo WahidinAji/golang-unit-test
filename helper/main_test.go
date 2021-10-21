@@ -33,6 +33,6 @@ func TestSubTest(t *testing.T)  {
 	})
 	t.Run("Sub Fail", func(t *testing.T) {
 		result := HelloWorld("Sub Fail")
-		require.Equal(t,"Hai Sub Fail",result,"Result must be 'Hello Sub Fail' ")
+		require.Equal(t,"Hello Sub Fail",result,"Result must be 'Hello Sub Fail' ")
 	})
 }
